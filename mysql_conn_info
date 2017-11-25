@@ -1,0 +1,15 @@
+MySQL Connection Info:
+Database Name - user_desc
+User: shiv2
+Password: ******
+_____________________________________________________________________________________
+
+SQL Statements:
+
+create database user_desc;
+create user 'shiv2'@'localhost' IDENTIFIED BY '******';
+use user_desc;
+create table user_posts(post_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, post TEXT);
+grant all on user_desc.* to 'shiv2';
+
+
